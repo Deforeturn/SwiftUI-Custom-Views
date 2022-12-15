@@ -1,0 +1,61 @@
+{
+  "_buildCommand2" : {
+    "command" : "prepareForIndexing",
+    "enableIndexBuildArena" : true,
+    "targets" : null
+  },
+  "buildCommand" : "build",
+  "configuredTargets" : [
+    {
+      "guid" : "94b727dfb3548bba83bb2cf69535d9ec35d13756ee46d376b38edde322d3e13f"
+    }
+  ],
+  "containerPath" : "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/CustomViews.xcodeproj",
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "indexbuild",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "iphoneos",
+      "sdk" : "iphoneos16.1",
+      "sdkVariant" : "iphoneos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64v8",
+        "arm64",
+        "armv8"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/DerivedData/CustomViews/Index.noindex/Build/Intermediates.noindex",
+      "buildProductsPath" : "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/DerivedData/CustomViews/Index.noindex/Build/Products",
+      "derivedDataPath" : "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/DerivedData/CustomViews/Index.noindex/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/DerivedData/CustomViews/Index.noindex/PrecompiledHeaders",
+      "pchPath" : "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/DerivedData/CustomViews/Index.noindex/Build/Intermediates.noindex/PrecompiledHeaders"
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO",
+          "INDEX_ARENA_INFO_REGULAR_BUILD_PRODUCTS_DIR" : "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/DerivedData/CustomViews/Build/Products",
+          "ONLY_ACTIVE_ARCH" : "YES"
+        }
+      }
+    }
+  },
+  "qos" : "utility",
+  "schemeCommand" : "launch",
+  "schemeCommand2" : "launch",
+  "showNonLoggedProgress" : true,
+  "useDryRun" : false,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "ea6a5d8c96114fee8a82a8532fa8145c2a560ebc2fb6a68845ca3f4f58ba2c3b"
+build_start_time: [1671084363, 840535163]
+build_end_time: [1671084364, 209182977]
+inputs:
+  "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/CustomViews/ContentView.swift": [1671084351, 777620792]
+  "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/CustomViews/CustomAsyncImage.swift": [1671083922, 937217712]
+  "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/CustomViews/Extensions.swift": [1671083801, 834452390]

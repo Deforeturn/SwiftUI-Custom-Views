@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
+options: "32d0022147643313d8bb382e7609d76d584775bcc0feb2aafb0d705e426dc00f"
+build_start_time: [1671083732, 404158115]
+build_end_time: [1671083732, 495234966]
+inputs:
+  "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/CustomViews/ContentView.swift": !private [1671083728, 835743188]
+  "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/CustomViews/CustomViewsApp.swift": !private [1671083728, 833556652]
