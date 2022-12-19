@@ -22,14 +22,13 @@ struct CustomAsynsImage<P>:View where P:View{
             }else{
                 self.placeHolderView()
                     .onAppear{
-//                        DispatchQueue.main.async {
-                            self.loadImage()
-//                        }
+                        self.loadImage()
                     }
             }
         }
     }
 }
+
 extension CustomAsynsImage{
     private func loadImage(){
         let url = URL(string: self.urlStr)
@@ -41,3 +40,9 @@ extension CustomAsynsImage{
         }.resume()
     }
 }
+
+//Example
+//CustomAsynsImage(.urlCar){
+//    Text("Loading...")
+//}
+
