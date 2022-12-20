@@ -12,6 +12,7 @@
 		128DE6DF294AEE510013D2C5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 128DE6DE294AEE510013D2C5 /* Preview Assets.xcassets */; };
 		128DE6E6294AEE960013D2C5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128DE6E5294AEE960013D2C5 /* Extensions.swift */; };
 		128DE6E9294AEF0B0013D2C5 /* CustomAsyncImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128DE6E8294AEF0B0013D2C5 /* CustomAsyncImage.swift */; };
+		128DE6EF295175F00013D2C5 /* SheetDragable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 128DE6EE295175F00013D2C5 /* SheetDragable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		128DE6DE294AEE510013D2C5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		128DE6E5294AEE960013D2C5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		128DE6E8294AEF0B0013D2C5 /* CustomAsyncImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAsyncImage.swift; sourceTree = "<group>"; };
+		128DE6EE295175F00013D2C5 /* SheetDragable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetDragable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 				128DE6E5294AEE960013D2C5 /* Extensions.swift */,
 				128DE6D9294AEE500013D2C5 /* ContentView.swift */,
 				128DE6E8294AEF0B0013D2C5 /* CustomAsyncImage.swift */,
+				128DE6EE295175F00013D2C5 /* SheetDragable.swift */,
 				128DE6DB294AEE510013D2C5 /* Assets.xcassets */,
 				128DE6DD294AEE510013D2C5 /* Preview Content */,
 			);
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				128DE6DA294AEE500013D2C5 /* ContentView.swift in Sources */,
+				128DE6EF295175F00013D2C5 /* SheetDragable.swift in Sources */,
 				128DE6E9294AEF0B0013D2C5 /* CustomAsyncImage.swift in Sources */,
 				128DE6E6294AEE960013D2C5 /* Extensions.swift in Sources */,
 			);

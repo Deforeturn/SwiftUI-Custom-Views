@@ -1,5 +1,3 @@
-import Foundation
-import UIKit
 import SwiftUI
 
 struct CustomAsynsImage<P>:View where P:View{
@@ -28,7 +26,6 @@ struct CustomAsynsImage<P>:View where P:View{
         }
     }
 }
-
 extension CustomAsynsImage{
     private func loadImage(){
         let url = URL(string: self.urlStr)

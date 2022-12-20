@@ -11,8 +11,10 @@ struct CustomViewsApp: App {
 
 struct ContentView: View {
     var body: some View {
-        CustomAsynsImage(.urlCar){
-            Text("Loading...")
+        SheetDragable{
+            Rectangle()
+                .frame(width: 350, height: 400)
+                .cornerRadius(25)
         }
     }
 }
