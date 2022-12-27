@@ -1,5 +1,16 @@
 {
   "source": "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/CustomViews/ContentView.swift",
-  "tables": {},
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld"
+      },
+      {
+        "comment": "",
+        "key": "test"
+      }
+    ]
+  },
   "version": 1
 }

@@ -10,11 +10,20 @@ struct CustomViewsApp: App {
 }
 
 struct ContentView: View {
+    @State var isShow = false
     var body: some View {
-        SheetDragable{
-            Rectangle()
-                .frame(width: 350, height: 400)
-                .cornerRadius(25)
+        ZStack{
+            List{
+                ForEach(0..<25){ i in
+                    Text("\(i)")
+                }
+            }
+            .onTapGesture {
+                self.isShow.toggle()
+            }
+            CustomSheetView(isShow: self.$isShow, isAbleDownGesture: false){
+                Text("test")
+            }
         }
     }
 }

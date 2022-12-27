@@ -1,5 +1,16 @@
 {
   "source": "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/DerivedData/CustomViews/Build/Intermediates.noindex/Previews/CustomViews/Intermediates.noindex/CustomViews.build/Debug-iphonesimulator/CustomViews.build/Objects-normal/arm64/ContentView.1.preview-thunk.swift",
-  "tables": {},
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "%lld"
+      },
+      {
+        "comment": "",
+        "key": "test"
+      }
+    ]
+  },
   "version": 1
 }
