@@ -1,7 +1,17 @@
-//Example
-//CustomSheetView(isShow: self.$isShow, isAbleDownGesture: false){
-//    Text("test")
-//}
+/*
+- Example
+The $isShow is require.
+ 
+CustomSheetView(isShow: self.$isShow,
+             isAbleDownGesture: self.isAbleDownGesture,
+             style: .long){
+ self.innerView()
+}
+ 
+CustomSheetView(isShow: self.$isShow){
+    Text("test")
+}
+*/
 
 import SwiftUI
 

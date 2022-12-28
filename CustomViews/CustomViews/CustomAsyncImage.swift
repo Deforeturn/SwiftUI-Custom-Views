@@ -1,9 +1,9 @@
-//Example
-//CustomAsynsImage(.urlCar){
-//    Text("Loading...")
-//}
-
-
+/*
+- Example
+CustomAsynsImage(.urlCar){
+    Text("Loading...")
+}
+*/
 import SwiftUI
 
 struct CustomAsynsImage<P>:View where P:View{
