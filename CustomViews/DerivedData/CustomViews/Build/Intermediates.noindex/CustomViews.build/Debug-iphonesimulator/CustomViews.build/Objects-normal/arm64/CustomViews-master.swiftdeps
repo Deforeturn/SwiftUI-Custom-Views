@@ -1,9 +1,0 @@
-version: "Apple Swift version 5.7.1 (swiftlang-5.7.1.135.3 clang-1400.0.29.51)"
-options: "3f8512560082f186dc3fbe00eded5d5345245d73a0ee54bbc4e6ec1bcced19c9"
-build_start_time: [1671511761, 254837989]
-build_end_time: [1671511761, 906547069]
-inputs:
-  "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/CustomViews/ContentView.swift": [1671511734, 140321016]
-  "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/CustomViews/CustomAsyncImage.swift": [1671511760, 470137834]
-  "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/CustomViews/Extensions.swift": [1671083801, 834452390]
-  "/Users/mrsbok/Documents/swiftui-custom-views/CustomViews/CustomViews/SheetDragable.swift": [1671511668, 370232582]

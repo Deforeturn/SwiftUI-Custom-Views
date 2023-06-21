@@ -1,18 +1,10 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var isShow = false
     var body: some View {
-        ZStack{
-            Rectangle()
-                .foregroundColor(Color(UIColor.systemBlue))
-                .onTapGesture {
-                    self.isShow.toggle()
-                }
-            CustomSheetView(isShow: self.$isShow, isAbleDownGesture: false){
-                Text("test")
-            }
-        }.ignoresSafeArea()
+        VStack{
+            Text("Hi there.")
+        }
     }
 }
 

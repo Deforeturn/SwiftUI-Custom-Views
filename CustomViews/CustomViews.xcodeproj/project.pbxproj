@@ -40,13 +40,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		128A65CB295ACD560056DA76 /* CustomSheet */ = {
+		128A65CB295ACD560056DA76 /* CustomSheetView */ = {
 			isa = PBXGroup;
 			children = (
 				128A65CD295ACD560056DA76 /* CustomSheetView.swift */,
 				128A65CC295ACD560056DA76 /* SheetDragable.swift */,
 			);
-			path = CustomSheet;
+			path = CustomSheetView;
 			sourceTree = "<group>";
 		};
 		128DE6CB294AEE500013D2C5 = {
@@ -71,8 +71,8 @@
 				128DE6E5294AEE960013D2C5 /* Extensions.swift */,
 				128A65D0295BF8410056DA76 /* CustomViewsApp.swift */,
 				128DE6D9294AEE500013D2C5 /* ContentView.swift */,
-				128DE6E8294AEF0B0013D2C5 /* CustomAsyncImage.swift */,
-				128A65CB295ACD560056DA76 /* CustomSheet */,
+				5DC2A1472A437B7900298F1A /* CustomAsyncImage */,
+				128A65CB295ACD560056DA76 /* CustomSheetView */,
 				128DE6DB294AEE510013D2C5 /* Assets.xcassets */,
 				128DE6DD294AEE510013D2C5 /* Preview Content */,
 			);
@@ -85,6 +85,14 @@
 				128DE6DE294AEE510013D2C5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5DC2A1472A437B7900298F1A /* CustomAsyncImage */ = {
+			isa = PBXGroup;
+			children = (
+				128DE6E8294AEF0B0013D2C5 /* CustomAsyncImage.swift */,
+			);
+			path = CustomAsyncImage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,7 +299,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CustomViews/Preview Content\"";
-				DEVELOPMENT_TEAM = 7D2HASL4FM;
+				DEVELOPMENT_TEAM = DYMB4UT7G5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -321,7 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CustomViews/Preview Content\"";
-				DEVELOPMENT_TEAM = 7D2HASL4FM;
+				DEVELOPMENT_TEAM = DYMB4UT7G5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

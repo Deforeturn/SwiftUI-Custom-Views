@@ -1,4 +1,3 @@
-
 import SwiftUI
 
 //MARK: - String
@@ -8,7 +7,6 @@ extension String{
 
 //MARK: - Animation
 extension Animation{
-    
     static func aniCurve(_ duration:Double, _ delay:Double) -> Animation{
         return .timingCurve(0.25, 0.5, 0.15, 1.0, duration: duration).delay(delay)
     }
