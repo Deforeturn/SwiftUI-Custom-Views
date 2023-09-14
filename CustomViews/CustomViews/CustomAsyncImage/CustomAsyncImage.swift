@@ -3,7 +3,6 @@ import SwiftUI
 struct CustomAsynsImage<P>:View where P:View{
     var urlStr:String
     var placeHolderView:() -> P
-    
     @State var imageView:Image?
     
     init(_ urlStr:String,_ placeHolderView: @escaping () -> P) {

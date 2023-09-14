@@ -7,7 +7,7 @@ struct SheetDragable<V>:View  where V:View{
     @State private var position: CGSize = .zero
     @State var toEnd = false
     
-    var body: some View{
+    var body: some View {
         let drag = DragGesture()
             .onChanged { value in
                 let width = value.translation.width/15
@@ -24,9 +24,10 @@ struct SheetDragable<V>:View  where V:View{
             .onEnded { _ in
                 withAnimation(.aniCurve(0.5, 0)){
                     self.position = .zero
-                    if self.toEnd{
-                        self.swipeDown()
-                    }
+                }
+                
+                if self.toEnd{
+                    self.swipeDown()
                 }
             }
         content()
