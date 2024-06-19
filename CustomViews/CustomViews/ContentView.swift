@@ -3,7 +3,7 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         VStack{
-            Text("Hellow SwiftUI")
+            Text("Hello SwiftUI")
         }
     }
 }
