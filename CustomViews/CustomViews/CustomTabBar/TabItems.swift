@@ -1,13 +1,13 @@
 //
-//  TabbedItems.swift
+//  TabItems.swift
 //  CustomViews
 //
 //  Created by JiHoon K on 6/24/24.
 //
 
 
-enum TabbedItems: Int, CaseIterable {
-    case home, search, Favorite, profile
+enum TabItems: Int, CaseIterable {
+    case home, search, favorite, profile
     
     var title: String {
         switch self {
@@ -15,7 +15,7 @@ enum TabbedItems: Int, CaseIterable {
             "Home"
         case .search:
             "Search"
-        case .Favorite:
+        case .favorite:
             "Favorite"
         case .profile:
             "Profile"
@@ -28,7 +28,7 @@ enum TabbedItems: Int, CaseIterable {
             "house"
         case .search:
             "magnifyingglass"
-        case .Favorite:
+        case .favorite:
             "heart"
         case .profile:
             "person.crop.circle"

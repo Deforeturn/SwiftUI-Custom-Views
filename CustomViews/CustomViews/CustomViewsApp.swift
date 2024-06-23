@@ -4,7 +4,7 @@ import SwiftUI
 struct CustomViewsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            CustomTabView()
         }
     }
 }

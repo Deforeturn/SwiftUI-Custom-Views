@@ -9,13 +9,20 @@ import SwiftUI
 
 struct HomeView: View {
     var body: some View {
-        Text("Home")
+        List(0..<50) { _ in
+            Text("Home")
+        }
+        
     }
 }
 
 struct SearchView: View {
     var body: some View {
-        Text("Search")
+        ScrollView {
+            ForEach(0..<50) { _ in
+                Text("Search")
+            }
+        }
     }
 }
 
