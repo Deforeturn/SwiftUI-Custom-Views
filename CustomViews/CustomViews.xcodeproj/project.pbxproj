@@ -18,6 +18,7 @@
 		E018271F2C2351D100763A41 /* Ex+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = E018271E2C2351BF00763A41 /* Ex+String.swift */; };
 		E01827212C2351F100763A41 /* Ex+Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01827202C2351EE00763A41 /* Ex+Animation.swift */; };
 		E01827232C23522600763A41 /* Ex+BinaryFloatingPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E01827222C23522400763A41 /* Ex+BinaryFloatingPoint.swift */; };
+		E02DB3232C2882C500605B65 /* Temp+Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = E02DB3222C2882C500605B65 /* Temp+Views.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		E018271E2C2351BF00763A41 /* Ex+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+String.swift"; sourceTree = "<group>"; };
 		E01827202C2351EE00763A41 /* Ex+Animation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+Animation.swift"; sourceTree = "<group>"; };
 		E01827222C23522400763A41 /* Ex+BinaryFloatingPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+BinaryFloatingPoint.swift"; sourceTree = "<group>"; };
+		E02DB3222C2882C500605B65 /* Temp+Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Temp+Views.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				5DC2A1472A437B7900298F1A /* CustomAsyncImage */,
 				128A65CB295ACD560056DA76 /* CustomSheet */,
 				E018271A2C234EFA00763A41 /* SliderBar */,
+				E02DB3202C28827A00605B65 /* CustomTabBar */,
 				128DE6DB294AEE510013D2C5 /* Assets.xcassets */,
 				128DE6DD294AEE510013D2C5 /* Preview Content */,
 			);
@@ -118,6 +121,14 @@
 				E01827222C23522400763A41 /* Ex+BinaryFloatingPoint.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E02DB3202C28827A00605B65 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E02DB3222C2882C500605B65 /* Temp+Views.swift */,
+			);
+			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 				128DE6DA294AEE500013D2C5 /* ContentView.swift in Sources */,
 				E01827212C2351F100763A41 /* Ex+Animation.swift in Sources */,
 				E018271F2C2351D100763A41 /* Ex+String.swift in Sources */,
+				E02DB3232C2882C500605B65 /* Temp+Views.swift in Sources */,
 				E01827232C23522600763A41 /* Ex+BinaryFloatingPoint.swift in Sources */,
 				E018271C2C234F2D00763A41 /* SliderBarView.swift in Sources */,
 				128DE6E9294AEF0B0013D2C5 /* CustomAsyncImage.swift in Sources */,
