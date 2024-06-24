@@ -28,10 +28,13 @@ struct CustomAsynsImage<P>:View where P:View{
     private func loadImage(){
         let url = URL(string: self.urlStr)
         let urlRequest = URLRequest(url: url!)
+        
         URLSession.shared.dataTask(with: urlRequest){ data, url, error in
             guard let data = data, error == nil else {return}
             Thread.sleep(forTimeInterval: .init(1))
-            self.imageView = Image(uiImage: UIImage(data: data)!)
+            DispatchQueue.main.async {
+                self.imageView = Image(uiImage: UIImage(data: data)!)
+            }
         }.resume()
     }
 }
